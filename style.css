@@ -54,6 +54,12 @@ background:none;
 }
 
 /* Steps */
+#epay_steps {
+  margin-bottom:15px;
+  border-radius:3px;
+  border:1px solid #f7f7f7;
+}
+
 #epay_steps_list li {
   padding-right:50px;
   background:none;
@@ -66,8 +72,6 @@ background:none;
   display:block;
   width:10px;
   height:3px;
-  background-color:#555;
-  background-color:#a0a0a0;
   transform: rotate(45deg);
   position: absolute;
   right: 20px;
@@ -83,8 +87,6 @@ background:none;
 #epay_steps_list li.steps_list_2,
 #epay_steps_list li.steps_list_3 {
   background:none;
-  border:1px solid #ccc;
-  background-color:#f7f7f7;
   width:auto;
 }
 
@@ -92,7 +94,6 @@ background:none;
 #epay_steps_list li.steps_list_2.currentstep2
 #epay_steps_list li.steps_list_3.currentstep3 {
   background:none;
-  background-color:#ebebeb;
 }
 
 @media (min-width:420px) {
