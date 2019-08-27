@@ -1,3 +1,8 @@
+#epay_testmode_message {
+  width:100%;
+  margin:0px;
+}
+
 #epay_main {
   width:100%;
   float:none;
@@ -8,13 +13,13 @@
 /**/
 /* Header and sub contents */
 #epay_main_header {
-  background:wheat;
+  background:#fff;
 }
 
 /**/
 /* Main conten and sub contents */
 #epay_main_content {
-  background:wheat;
+  background:#fff;
 }
 
 #epay_header {
@@ -29,7 +34,7 @@
 /* logo */
 #epay_header_content_left {
   width:100%;
-  background:wheat;
+  background:#fff;
   float:none;
   margin:0px;
 }
@@ -48,6 +53,10 @@
 
 #epay_content_top {
   background:none;
+}
+
+#epay_content_content {
+padding:10px; 
 }
 
 #epay_header_bottom {
@@ -78,6 +87,7 @@
   display:block;
   width:10px;
   height:3px;
+  background-color:#555;
   transform: rotate(45deg);
   position: absolute;
   right: 20px;
@@ -102,7 +112,9 @@
 
 #epay_steps_list li.steps_list_1.currentstep2,
 #epay_steps_list li.steps_list_1.currentstep3,
+#epay_steps_list li.steps_list_2 currentstep1,
 #epay_steps_list li.steps_list_2.currentstep2,
+#epay_steps_list li.steps_list_2.currentstep3,
 #epay_steps_list li.steps_list_3.currentstep3 {
   background:none;
 }
@@ -117,6 +129,21 @@
 .epay_paymentmethod:hover {
   background:none;
   background-color:#f1f6ff;
+}
+
+.epay_paymentmethod_name {
+  line-height:50px;
+  float:none;
+}
+
+.epay_payment_logos {
+  width:auto;
+  text-align:left;
+  padding-left:20px;
+}
+
+.epay_payment_logos img {
+  margin-top:10px;
 }
 
 @media (min-width:420px) {
@@ -135,9 +162,17 @@
 
 }
 
+
+
 /**/
 /* Footer and sub contents */
 #epay_main_footer {
-  background:wheat;
+  background:#fff;
+}
+
+#epay_content_bottom_top,
+#epay_content_bottom_content,
+#epay_content_bottom_bottom {
+background:none;
 }
 
