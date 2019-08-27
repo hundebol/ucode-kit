@@ -1,3 +1,7 @@
 body {
 background:red;
 }
+
+#epay_testmode_message {
+background:green;
+}
