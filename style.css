@@ -14,15 +14,16 @@
 /**/
 /* Main conten and sub contents */
 #epay_main_content {
-background:wheat;
+  background:wheat;
 }
 
 #epay_header {
   padding:0px;
+  width: 100%;
 }
 
 #epay_header_top {
-background:none;
+  background:none;
 }
 
 /* logo */
@@ -50,7 +51,7 @@ background:none;
 }
 
 #epay_header_bottom {
-background:none;
+  background:none;
 }
 
 /* Steps */
@@ -64,6 +65,11 @@ background:none;
   padding-right:50px;
   background:none;
   position:relative;
+  border-left:1px solid #f7f7f7;
+}
+
+#epay_steps_list li::first-child {
+  border:none;
 }
 
 #epay_steps_list li::before,
@@ -90,10 +96,23 @@ background:none;
   width:auto;
 }
 
-#epay_steps_list li.steps_list_1.currentstep1
-#epay_steps_list li.steps_list_2.currentstep2
+#epay_steps_list li.steps_list_1.currentstep1,
+#epay_steps_list li.steps_list_1.currentstep2,
+#epay_steps_list li.steps_list_1.currentstep3,
+#epay_steps_list li.steps_list_2.currentstep2,
 #epay_steps_list li.steps_list_3.currentstep3 {
   background:none;
+}
+
+.epay_paymentmethod {
+  border-top:1px solid #f7f7f7;
+  height:auto;
+  overflow:hidden;
+}
+
+.epay_paymentmethod:hover {
+  background:none;
+  background-color:#f1f6ff;
 }
 
 @media (min-width:420px) {
@@ -115,6 +134,6 @@ background:none;
 /**/
 /* Footer and sub contents */
 #epay_main_footer {
-background:wheat;
+  background:wheat;
 }
 
