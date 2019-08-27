@@ -22,11 +22,12 @@ background:wheat;
 }
 
 #epay_header_top {
-background:none;}
+background:none;
+}
 
 /* logo */
 #epay_header_content_left {
-  width:200px;
+  width:100%;
   background:wheat;
   float:none;
   margin:0px;
@@ -39,13 +40,46 @@ background:none;}
 
 /* content */
 #epay_content {
-width:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
 }
 
+#epay_content_top {
+  background:none;
+}
 
 #epay_header_bottom {
 background:none;
 }
+
+/* Steps */
+#epay_steps_list li {
+padding-right:30px;
+}
+
+#epay_steps_list li::after {
+  content:"";
+  display:block;
+  width:20px;
+  height:3px;
+  background-color:#434343;
+}
+
+
+#epay_steps_list li.steps_list_1.currentstep1 {
+  background-color:#f7f7f7;
+}
+
+#epay_steps_list li.steps_list_1,
+#epay_steps_list li.steps_list_2,
+#epay_steps_list li.steps_list_3 {
+  background:none;
+  border:1px solid #ccc;
+  background-color:#ebebeb;
+  width:auto;
+}
+
 
 @media (min-width:420px) {
 
@@ -53,11 +87,12 @@ background:none;
   #epay_header_content_right {
     float:left;
   }
-
-  #epay_header_content_right {
-    border-left:1px solid #ccc;
-    margin-left:10px;
-    padding-left:10px;
+  
+  #epay_header_content_left {
+    width:200px;
+    border-right:1px solid #ccc;
+    margin-right:10px;
+    padding-right:10px;
   }
 
 }
