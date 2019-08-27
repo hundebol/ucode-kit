@@ -60,7 +60,7 @@ background:none;
   position:relative;
 }
 
-#epay_steps_list li::before {
+#epay_steps_list li::before,
 #epay_steps_list li::after {
   content:"";
   display:block;
