@@ -55,20 +55,27 @@ background:none;
 
 /* Steps */
 #epay_steps_list li {
-padding-right:30px;
+  padding-right:30px;
+  background:none;
+  position:relative;
 }
 
+#epay_steps_list li::before {
 #epay_steps_list li::after {
   content:"";
   display:block;
-  width:20px;
+  width:10px;
   height:3px;
   background-color:#434343;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0px;
+  top: 20px;
 }
-
-
-#epay_steps_list li.steps_list_1.currentstep1 {
-  background-color:#f7f7f7;
+  
+#epay_steps_list li::after {
+  transform: rotate(-45deg);
+  top:30px;
 }
 
 #epay_steps_list li.steps_list_1,
@@ -76,10 +83,15 @@ padding-right:30px;
 #epay_steps_list li.steps_list_3 {
   background:none;
   border:1px solid #ccc;
-  background-color:#ebebeb;
+  background-color:#f7f7f7;
   width:auto;
 }
 
+
+#epay_steps_list li.steps_list_1.currentstep1 {
+  background:none;
+  background-color:#ebebeb;
+}
 
 @media (min-width:420px) {
 
