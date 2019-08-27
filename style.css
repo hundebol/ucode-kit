@@ -1,7 +1,70 @@
-body {
-background:red;
+#epay_main {
+  width:100%;
+  float:none;
+  left:0;
+  margin:0px;
 }
 
-#epay_testmode_message {
-background:green;
+/**/
+/* Header and sub contents */
+#epay_main_header {
+  background:wheat;
 }
+
+/**/
+/* Main conten and sub contents */
+#epay_main_content {
+background:wheat;
+}
+
+#epay_header {
+  padding:0px;
+}
+
+#epay_header_top {
+background:none;}
+
+/* logo */
+#epay_header_content_left {
+  width:200px;
+  background:wheat;
+  float:none;
+  margin:0px;
+}
+
+#epay_header_content_right {
+  width:auto;
+  float:none;
+}
+
+/* content */
+#epay_content {
+width:100%;
+}
+
+
+#epay_header_bottom {
+background:none;
+}
+
+@media (min-width:420px) {
+
+  #epay_header_content_left,
+  #epay_header_content_right {
+    float:left;
+  }
+
+  #epay_header_content_right {
+    border-left:1px solid #ccc;
+    margin-left:10px;
+    padding-left:10px;
+  }
+
+}
+
+/**/
+/* Footer and sub contents */
+#epay_main_footer {
+background:wheat;
+}
+
