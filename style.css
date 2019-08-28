@@ -13,7 +13,7 @@ body {
   float:none;
   left:0;
   margin:0px auto;
-  max-width:900px;
+  max-width:800px;
 }
 
 /*-----*/
@@ -204,6 +204,8 @@ padding:10px;
     padding: 0px 0px 0px 20px;
     float: none;
     text-align: left;
+    font-size: inherit;
+    height:40px;
 }
 
 
@@ -351,12 +353,13 @@ background:none;
     color: #717171;
     cursor: pointer;
     font-size: 10px;
+    padding-left: 10px;
 }
 
 #epay_content_bottom_content_right {
     float: none;
     width: 148px;
-    margin-left: 0px;
+    margin-left: 10px;
     height: 78px;
 }
 
@@ -415,7 +418,7 @@ background:none;
 #epay_content_bottom_language {
     width: 63px;
     height: 34px;
-    float: none;
+    float: left;
     margin-left: 0px;
     margin-top: 20px;
     cursor: pointer;
@@ -434,16 +437,16 @@ background:none;
   display:block;
   width:6px;
   height:2px;
-  background-color:#555;
+  background-color:#ccc;
   transform: rotate(45deg);
-  position: absolute;
-  right: 5px;
-  top: 13px;
+  position: relative;
+  left: 48px;
+  top: 15px;
 }
   
 #epay_content_bottom_language::after {
   transform: rotate(-45deg);
-  top:8px;
+  top:-21px;
 }
 
 @media (min-width:801px) {
