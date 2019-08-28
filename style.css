@@ -1,7 +1,7 @@
 #epay_testmode_message {
   width:100%;
   max-width:708px;
-  margin:0px;
+  margin: 0px 0px 10px 0px;
 }
 
 #epay_main {
@@ -41,6 +41,7 @@
   background:#fff;
   float:none;
   margin:0px;
+  background: url(https://www.skechers.dk/media/logo/default/logo.png) no-repeat;
 }
 
 /*-- Content Header text --*/
@@ -82,19 +83,17 @@ padding:10px;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    height: 54px;
-    margin-left: 8px;
     text-shadow: #fff 1px 0;
-    overflow: hidden;
+    height:auto;
 }
 
 /*-- Steps 1-2-3 --*/
 #epay_steps_list li {
-  padding-right:50px;
   background:none;
   position:relative;
-  border-left:1px solid #e5e5e5;
-  width:30%;
+  /* border-left:1px solid #e5e5e5; */
+  width:100%;
+  float:none;
 }
 
 #epay_steps_list li:first-child {
@@ -124,7 +123,6 @@ padding:10px;
 #epay_steps_list li.steps_list_2,
 #epay_steps_list li.steps_list_3 {
   background:none;
-  width:auto;
 }
 
 #epay_steps_list li.steps_list_1.currentstep1 {
@@ -156,6 +154,10 @@ padding:10px;
   border-top: 1px solid #e5e5e5;
 }
 
+.epay_paymentmethod.last {
+    height: auto;
+}
+
 .epay_paymentmethod:hover {
   background:none;
   /* background-color:#f1f6ff; */
@@ -163,21 +165,27 @@ padding:10px;
 }
 
 .epay_paymentmethod .epay_payment_goto {
-  float:right;
+  float:none;
   width:100%;
 }
 
 .epay_paymentmethod .epay_payment_goto .epay_payment_goto_text {
     width:100%;
-    padding:0px;
+    padding: 0px 0px 0px 20px;
     float: none;
     text-align: left;
 }
 
+
+.epay_paymentmethod .epay_payment_goto .epay_payment_goto_text img {
+    height:22px !important;
+}
+
 .epay_paymentmethod .epay_payment_goto .epay_payment_goto_button_container {
+  display:none;
   float: none;
   width: 100%;
-  height: 79px;
+  height: auto;
   background: none;
 }
 /*-- Payment method button--*/
