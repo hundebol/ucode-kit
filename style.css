@@ -291,6 +291,8 @@ padding:10px;
   text-align:left;
   padding:0px 0px 0px 20px;
   float:none;
+  margin:0px;
+  height:40px;
 }
 
 .epay_payment_logos img {
@@ -383,6 +385,22 @@ background:none;
   #epay_language_selector {
     margin-top: -175px;
   }
+}  
+
+@media (min-width:650px) {
+  
+  #epay_content_bottom_content_center,
+  #epay_content_bottom_content_left {
+    float:left;
+  }
+  
+  #epay_content_bottom_content_right {
+    float:right;
+  }
+  
+  #epay_content_bottom_content_center {
+    width: 320px;
+  }  
 }  
   
 @media (min-width:720px) {
