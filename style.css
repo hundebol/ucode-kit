@@ -4,11 +4,15 @@
   margin: 0px 0px 10px 0px;
 }
 
+body {
+  background: rgb(225, 225, 225) none repeat scroll 0% 0% !important;
+}
+
 #epay_main {
   width:100%;
   float:none;
   left:0;
-  margin:0px;
+  margin:0px auto;
   max-width:900px;
 }
 
@@ -327,6 +331,19 @@ padding:10px;
 background:none;
 }
 
+#epay_content_bottom_content_center {
+    float: none;
+    width: auto;
+    padding-top: 15px;
+    margin-left: 0px;
+    line-height: auto;
+    background: none
+    height: auto;
+    color: #717171;
+    cursor: pointer;
+    font-size: 10px;
+}
+
 /* language selector */
 #epay_language_selector {
     width: 94%;
@@ -339,8 +356,18 @@ background:none;
     z-index: 1000;
     position: absolute;
     background: none;
-    background-color: #fff;
+    background-color: #e5e5e5;
     border: 1px solid #e5e5e5;
+}
+#epay_language_selector::after {
+  content:"";
+  display:block;
+  width:10px;
+  height:10px;
+  position:relative;
+  bottom:0px;
+  right:0px;
+  background-color:#e5e5e5;
 }
 
 #epay_languages_list {
@@ -379,12 +406,12 @@ background:none;
   transform: rotate(45deg);
   position: absolute;
   right: 5px;
-  top: 12px;
+  top: 13px;
 }
   
-#epay_steps_list li::after {
+#epay_content_bottom_language::after {
   transform: rotate(-45deg);
-  top:7px;
+  top:8px;
 }
 
 @media (min-width:801px) {
