@@ -331,17 +331,33 @@ padding:10px;
 background:none;
 }
 
+/* bambora logo */
+#epay_content_bottom_content_left {
+    float: none;
+}
+
+#epay_content_bottom_content #epay_content_bottom_content_left:hover {
+    float: none;
+}
+
 #epay_content_bottom_content_center {
     float: none;
     width: auto;
     padding-top: 15px;
     margin-left: 0px;
-    line-height: auto;
-    background: none
+    line-height: normal;
+    background: none;
     height: auto;
     color: #717171;
     cursor: pointer;
     font-size: 10px;
+}
+
+#epay_content_bottom_content_right {
+    float: none;
+    width: 148px;
+    margin-left: 0px;
+    height: 78px;
 }
 
 /* language selector */
@@ -350,7 +366,7 @@ background:none;
     height: auto;
     float: left;
     left: 50%;
-    margin-top: -82px;
+    margin-top: -105px;
     margin-left: -47%;
     display: none;
     z-index: 1000;
@@ -359,6 +375,22 @@ background:none;
     background-color: #e5e5e5;
     border: 1px solid #e5e5e5;
 }
+
+@media (min-width:420px) {
+  #epay_language_selector {
+    margin-top: -175px;
+  }
+}  
+  
+@media (min-width:720px) {
+  
+  #epay_language_selector {
+    margin-top: -40px;
+  }
+  
+}
+
+
 #epay_language_selector::after {
   content:"";
   display:block;
@@ -383,8 +415,8 @@ background:none;
 #epay_content_bottom_language {
     width: 63px;
     height: 34px;
-    float: left;
-    margin-left: 20px;
+    float: none;
+    margin-left: 0px;
     margin-top: 20px;
     cursor: pointer;
     background: none;
