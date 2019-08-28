@@ -177,6 +177,7 @@ padding:10px;
   width:100%;
   border-radius:3px;
   margin-bottom:3px;
+  padding-bottom: 10px;
 }
 
 .epay_paymentmethod.first {
@@ -268,6 +269,7 @@ padding:10px;
     float: none;
     width: 100%;
     margin-top: 15px;
+    max-width: 387px;
 }
 
 #epay_paymentinfo ul, #epay_paymentinfo_full ul {
@@ -487,3 +489,34 @@ background:none;
   }
   
 }
+
+#epay_paymentinfo ul li.total label,
+#epay_paymentinfo ul li p, 
+#epay_paymentinfo_full ul li p {
+    width: 50%;
+}
+
+#epay_paymentcollection label {
+  width:100%;
+}
+
+#epay_paymentcollection input[type="text"], 
+#epay_paymentcollection input[type="tel"] {
+  width:100%;
+  max-width: 220px;
+}
+
+.epay_expmonth_input {
+    width: 40px !important;
+    background: none;
+    border:1px solid #ccc;
+}
+
+.epay_cardno_input.valid,
+.epay_expmonth_input.valid {
+    background: none;
+    border:1px solid #14cc45;  
+}
+
+
+
