@@ -27,9 +27,10 @@
 
 /*-- Content Header --*/
 #epay_header {
-  padding:0px;
+  padding:0px 10px;
   width: 100%;
   height:auto;
+  box-sizing: border-box;
 }
 
 #epay_header_top {
@@ -46,9 +47,10 @@
   width:100%;
   background:#fff;
   float:none;
-  margin:0px 20px;
+  margin:0px;
   /* test*/
   background: url(https://www.skechers.dk/media/logo/default/logo.png) no-repeat;
+  background-size: contain;
   border:1px solid green;
 }
 
