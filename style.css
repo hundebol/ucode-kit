@@ -522,10 +522,21 @@ background:none;
 .epay_cardno_input.valid,
 .epay_expmonth_input.valid,
 .epay_expyear_input.valid,
-.epay_cvc_input.valid {
+.epay_cvc_input.valid,
+.valid {
     background: none;
-    border:1px solid #14cc45;  
+    border:1px solid #14cc45 !important;  
 }
+
+.invalid {
+  border:1px solid #14cc45 !important;
+}
+
+.epay_expyear_customvalidation,
+  .epay_expmonth_customvalidation,
+  .epay_cvc_customvalidation,
+    .epay_cardholder_customvalidation, .epay_cardno_customvalidation {
+position:relative;}
  
 #epay_cvc_help {
   margin-right:0;
@@ -553,6 +564,13 @@ background:none;
   margin-top: -5px;
 }
 
+#epay_paymentfooter_info {
+    font-size: 12px;
+}
+
+#epay_paymentfooter_right {
+    max-width: 230px;
+}
 
 span.info {
   display: none;
