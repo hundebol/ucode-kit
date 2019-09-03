@@ -243,12 +243,12 @@ padding:10px;
 .epay_payment_goto_button span {
   padding:10px 20px;
   text-align:center;
-  line-height:auto;
+  line-height:1;
 }
 
 .epay_payment_goto_button:hover,
 .epay_payment_button:hover {
-  backgground:none;
+  background:none;
   background: #00a82d;
 }
 
