@@ -514,7 +514,7 @@ background:none;
 .epay_expmonth_input,
 .epay_expyear_input,
 .epay_cvc_input {
-    width: 55x !important;
+    width: 55px !important;
     background: none;
     border:1px solid #ccc;
 }
@@ -523,7 +523,6 @@ background:none;
 .epay_expmonth_input.valid,
 .epay_expyear_input.valid,
 .epay_cvc_input.valid {
-{
     background: none;
     border:1px solid #14cc45;  
 }
