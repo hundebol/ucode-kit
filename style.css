@@ -544,11 +544,13 @@ background:none;
   content:"";
   display:block;
   background:#5e5e5e;
-  background:green;
   transform: rotate(45deg);
   position:relative;
-  top:10px;
-  left:-10px
+  top: 50%;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
 }
 
 
