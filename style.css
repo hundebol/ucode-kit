@@ -264,7 +264,7 @@ padding:10px;
     margin-right: 20px;
     overflow: hidden;
     padding-bottom: 60px;
-    max-width:200px;
+    max-width:250px;
     margin:0px auto;
 }
 
@@ -526,7 +526,32 @@ background:none;
     background: none;
     border:1px solid #14cc45;  
 }
+ 
+#epay_cvc_help {
+  margin-right:0;
+  max-width: 42px;
+}
+
+.epay_tooltip {
+  left: 525px;
+  margin-top: 0px;
+  background:none;
+  background-color: #5e5e5e;
   
+}
+
+.epay_tooltip::before { 
+  content:"";
+  display:block;
+  background:#5e5e5e;
+  background:green;
+  transform: rotate(45deg);
+  position:relative;
+  top:10px;
+  left:-10px
+}
+
+
 span.info {
   display: none;
 }
