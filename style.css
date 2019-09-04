@@ -314,6 +314,7 @@ padding:10px;
   
   #epay_header_content_left {
     width:200px;
+    border-right:1px solid #fff;
     border:none;
     margin-right:10px;
     padding-right:10px;
@@ -324,7 +325,6 @@ padding:10px;
   }
 
 }
-
 
 
 /**/
@@ -591,5 +591,3 @@ span.info {
   }
 
 }
-
-
