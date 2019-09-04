@@ -56,7 +56,7 @@ body {
   /* test*/
   background: url(https://www.skechers.dk/media/logo/default/logo.png) no-repeat;
   background-size: contain;
-  border:1px solid green;
+  border:none;
 }
 
 /*-- Content Header text --*/
@@ -65,7 +65,7 @@ body {
   float:none;
   margin:0px;
   height:auto;
-  padding:0px 0px 0px 20px;
+  padding:0;
 }
 
 /*-- Content content --*/
@@ -318,6 +318,10 @@ padding:10px;
     margin-right:10px;
     padding-right:10px;
   }
+  
+  #epay_header_content_right {
+    padding:0px 0px 0px 20px;
+  }
 
 }
 
@@ -327,6 +331,10 @@ padding:10px;
 /* Footer and sub contents */
 #epay_main_footer {
   background:#fff;
+}
+
+#epay_paymentfooter {
+  margin:0;
 }
 
 #epay_content_bottom {
