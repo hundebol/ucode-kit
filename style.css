@@ -314,7 +314,7 @@ padding:10px;
   
   #epay_header_content_left {
     width:200px;
-    border-right:1px solid #ccc;
+    border-right:none;
     margin-right:10px;
     padding-right:10px;
   }
