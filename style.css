@@ -255,6 +255,7 @@ padding:10px;
 .epay_paymentmethod_name {
   line-height:50px;
   float:none;
+  display:block;
 }
 
 /* Payment step */
